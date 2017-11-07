@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New Battery Array Magment</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/bc.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/netmap.css" />
+    <link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.niftymodals.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.toast.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/icomoon.css" />
+    <!-- <script src="js/modernizr.custom.js"></script> -->
+</head>
+
+<body onselectstart="return false" oncontextmenu="return false">
+    <ul id="gn-menu" class="gn-menu-main">
+        <li class="gn-trigger">
+            <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+            <nav class="gn-menu-wrapper">
+                <div class="gn-scroller">
+                    <ul class="gn-menu">
+                        <li><a class="gn-icon gn-icon-power">充放</a></li>
+                        <li><a id="btn-settings" class="gn-icon gn-icon-cogs">设置</a></li>
+                        <li><a class="gn-icon gn-icon-wrench">控制</a></li>
+                        <li><a class="gn-icon gn-icon-attachment">归档</a></li>
+                        <li><a class="gn-icon gn-icon-bug">调试</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </li>
+        <li><a href="#">PowerWise Tech / 钜威动力</a></li>
+        <!-- <li><a class="gn-icon gn-icon-alarm" href="#"></a></li> -->
+        <li><a id="system-time" class="codrops-icon codrops-icon-drop" href="#">系统时间获取中...</a></li>
+    </ul>
+    <div id="content-wrapper" class="container" style="padding-top:60px;">
+        <div class="mui-container-fluid" style="background-color: #586972">
+            <div id="main-panel" class="">
+                <div class="mod-netmap" style="border:1px, solid;">
+                    <div class="inner clearfix">
+                        <div class="devices nav-tab" data-mui-toggle="tab" data-mui-controls="pcs">
+                            <div class="img">
+                                <img src="img/pcs.png" class="on">
+                            </div>
+                            <p>PCS</p>
+                            <div id="statusDevices" class="status status-devices"><b class="devcountonline">Connecting</b></div>
+                        </div>
+                        <div class="line line-scaning" id="devline"></div>
+                        <div class="router nav-tab active" data-mui-toggle="tab" data-mui-controls="bd">
+                            <div class="img">
+                                <img src="img/router_r1cm_1011.png" class="">
+                            </div>
+                            <p>电池堆</p>
+                            <div id="statusDevices" class="status status-devices"><b class="devcountonline">Normal</b></div>
+                        </div>
+                        <div class="line line-ok" id="netline"></div>
+                        <div class="internet nav-tab" data-mui-toggle="tab" data-mui-controls="bat-group">
+                            <div class="img">
+                                <img src="img/battery_string.png" class="on">
+                            </div>
+                            <p>电池组</p>
+                            <div id="statusInternet" class="status status-internet"><b class="bandwidthval">4/4</b>簇 Online</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="bd" class="main-warp mui-tabs__pane mui--is-active">
+                    <div class="mui-row">
+                        <div id="array-summary-info" class="mui-col-md-4">
+                            <!-- Js append html source here. -->
+                        </div>
+                        <div id="array-detail-info" class="mui-col-md-8">
+                            <!-- Js append thml source here. -->
+                        </div>
+                    </div>
+                </div>
+                <div id="bat-group" class="main-warp mui-tabs__pane">
+
+                </div>
+                <div id="pcs" class="main-warp mui-tabs__pane">
+                    <h1>PCS is not enable!</h1>
+                    <ul class="switch-warp">
+                        <li>
+                            <label class="switch-btn circle-style">
+                                <input class="checked-switch" type="checkbox" />
+                                <span class="text-switch" data-yes="yes" data-no="no"></span>
+                                <span class="toggle-btn"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="switch-btn circle-style no-radius">
+                                <input class="checked-switch" type="checkbox" />
+                                <span class="text-switch" data-yes="yes" data-no="no"></span>
+                                <span class="toggle-btn"></span>
+                            </label>
+                        </li>
+                    </ul>
+
+                    <div class="col-3">
+                        <input class="effect-4" type="text" placeholder="Placeholder Text">
+                        <span class="focus-border"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="md-container md-effect-2" id="Modal">
+            <div class="md-content"></div>
+        </div>
+        <div class="md-overlay"></div>
+        <!-- the overlay element -->
+
+    </div>
+    <script src="js/mui.min.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/gnmenu.js"></script>
+    <script src="js/jquery.AshAlom.gaugeMeter-2.0.0.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.toast.min.js"></script>
+    <script src="js/echarts2/echarts.js"></script>
+    <!-- local js script. -->
+    <script src="js/local/ModelSettings.js"></script>
+    <script src="js/local/index.js"></script>
+    <script>
+        jQuery(function($) {
+            new gnMenu(document.getElementById('gn-menu'));
+            $.toast({
+                heading: 'Info',
+                position: 'bottom-left',
+                text: 'Welcome To Use The PowerWise Tech. BAMS !',
+                showHideTransition: 'plain',
+                icon: 'success',
+                hideAfter: 5000 // in milli seconds
+            })
+
+            JSModelMainPage.init();
+            JSModelBatteryArraySummaryInfo.init();
+            JSModelBatteryArrayDetailInfo.init();
+            JSModelBatteryGroupDetailInfo.init();
+
+            $("#btn-settings").click(function(e) {
+                JSModelSettings.init();
+            });
+
+            JSModelBatteryArraySummaryInfo.soc(88);
+
+            $.ajax({
+                type: "GET",
+                url: "/dump",
+                data: { id: '0' },
+                dataType: "html",
+                error: function(XMLResponse) {
+                    console.log('Page redirect fail!')
+                },
+                success: function(data, textStatus) {
+                    window.open(data)
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>

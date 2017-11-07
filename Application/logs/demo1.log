@@ -1,0 +1,249 @@
+26.07.2015 08:15:13.630 0 DEBUG 139932081915712 TemplateLoader: path=/home/stefan/Programmierung/QtWebApp/Demo1/etc/templates, codec=UTF-8
+26.07.2015 08:15:13.631 0 DEBUG 139932081915712 TemplateCache: timeout=60000, size=1000000
+26.07.2015 08:15:13.631 0 DEBUG 139932081915712 HttpSessionStore: Sessions expire after 3600000 milliseconds
+26.07.2015 08:15:13.631 0 DEBUG 139932081915712 StaticFileController: docroot=/home/stefan/Programmierung/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+26.07.2015 08:15:13.631 0 DEBUG 139932081915712 StaticFileController: cache timeout=60000, size=1000000
+26.07.2015 08:15:13.631 0 DEBUG 139932081915712 RequestMapper: created
+26.07.2015 08:15:13.631 0 DEBUG 139932081915712 HttpListener: Listening on port 8080
+26.07.2015 08:15:13.631 1 WARNING 139932081915712 MyApplication: started
+26.07.2015 08:15:16.840 0 DEBUG 139932081915712 HttpListener: New connection
+26.07.2015 08:15:16.840 0 DEBUG 139932081915712 HttpConnectionHandler (0x1c7da00): constructed
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpConnectionHandler (0x1c7da00): thread started
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpConnectionHandler (0x1c7da00): handle new connection
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpConnectionHandler (0x1c7da00): read input
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: read request
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: received header Host: localhost:8080
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: received header User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: received header Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: received header Accept-Language: de,en-US;q=0.7,en;q=0.3
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.841 0 DEBUG 139932001220352 HttpRequest: received header Accept-Encoding: gzip, deflate
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpRequest: received header Connection: keep-alive
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpRequest: received header Cache-Control: max-age=0
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpRequest: headers completed
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpRequest: expect no body
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpRequest: extract and decode request parameters
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpRequest: extract cookies
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 HttpConnectionHandler (0x1c7da00): received request
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 RequestMapper: path=/
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 StaticFileController: Cache miss for /
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 StaticFileController: Open file /home/stefan/Programmierung/QtWebApp/Demo1/etc/docroot//index.html
+26.07.2015 08:15:16.842 0 DEBUG 139932001220352 RequestMapper: finished request
+26.07.2015 08:15:16.843 0 DEBUG 139932001220352 HttpConnectionHandler (0x1c7da00): finished request
+26.07.2015 08:15:16.947 0 DEBUG 139932001220352 HttpConnectionHandler (0x1c7da00): read input
+26.07.2015 08:15:16.947 0 DEBUG 139932001220352 HttpRequest: read request
+26.07.2015 08:15:16.947 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.947 0 DEBUG 139932001220352 HttpRequest: received header Host: localhost:8080
+26.07.2015 08:15:16.947 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.947 0 DEBUG 139932001220352 HttpRequest: received header User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0
+26.07.2015 08:15:16.947 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: received header Accept: image/png,image/*;q=0.8,*/*;q=0.5
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: received header Accept-Language: de,en-US;q=0.7,en;q=0.3
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: received header Accept-Encoding: gzip, deflate
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: received header Referer: http://localhost:8080/
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: received header Connection: keep-alive
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: received header Cache-Control: max-age=0
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: read header
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: headers completed
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: expect no body
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: extract and decode request parameters
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpRequest: extract cookies
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 HttpConnectionHandler (0x1c7da00): received request
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 RequestMapper: path=/Schmetterling klein.png
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 StaticFileController: Cache miss for /Schmetterling klein.png
+26.07.2015 08:15:16.948 0 DEBUG 139932001220352 StaticFileController: Open file /home/stefan/Programmierung/QtWebApp/Demo1/etc/docroot/Schmetterling klein.png
+26.07.2015 08:15:16.949 0 DEBUG 139932001220352 RequestMapper: finished request
+26.07.2015 08:15:16.949 0 DEBUG 139932001220352 HttpConnectionHandler (0x1c7da00): finished request
+
+Note: If you don't see new messages here, then the logger might be commented out in main.cpp.
+
+07.11.2017 22:53:09.227 0 DEBUG    6500 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 22:53:09.227 0 DEBUG    6500 TemplateCache: timeout=60000, size=1000000
+07.11.2017 22:53:09.227 0 DEBUG    6500 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 22:53:09.227 0 DEBUG    6500 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 22:53:09.227 0 DEBUG    6500 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 22:53:09.227 0 DEBUG    6500 RequestMapper: created
+07.11.2017 22:53:09.227 0 DEBUG    6500 HttpListener: Listening on port 8080
+07.11.2017 22:53:09.227 1 WARNING  6500 Application has started
+07.11.2017 23:01:45.904 0 DEBUG    9040 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:01:45.904 0 DEBUG    9040 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:01:45.904 0 DEBUG    9040 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:01:45.904 0 DEBUG    9040 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:01:45.904 0 DEBUG    9040 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:01:45.904 0 DEBUG    9040 RequestMapper: created
+07.11.2017 23:01:45.904 0 DEBUG    9040 HttpListener: Listening on port 8080
+07.11.2017 23:01:45.904 1 WARNING  9040 Application has started
+07.11.2017 23:01:47.446 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:01:47.446 0 DEBUG    9040 HttpConnectionHandler (0xf27bd70): constructed
+07.11.2017 23:01:49.415 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:01:49.415 0 DEBUG    9040 HttpConnectionHandler (0x17ab2ba0): constructed
+07.11.2017 23:01:49.415 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:01:49.415 0 DEBUG    9040 HttpConnectionHandler (0x17ab3220): constructed
+07.11.2017 23:01:49.415 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:01:49.415 0 DEBUG    9040 HttpConnectionHandler (0x17ab2e20): constructed
+07.11.2017 23:01:49.415 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:01:49.415 0 DEBUG    9040 HttpConnectionHandler (0xf253670): constructed
+07.11.2017 23:01:49.431 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:01:49.431 0 DEBUG    9040 HttpConnectionHandler (0xf253430): constructed
+07.11.2017 23:02:06.837 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:06.838 0 DEBUG    9040 HttpConnectionHandler (0x17de2bb0): constructed
+07.11.2017 23:02:06.838 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:06.839 0 DEBUG    9040 HttpConnectionHandler (0x17de2f30): constructed
+07.11.2017 23:02:06.839 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:06.840 0 DEBUG    9040 HttpConnectionHandler (0x17de2d30): constructed
+07.11.2017 23:02:06.840 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:06.841 0 DEBUG    9040 HttpConnectionHandler (0x17de2bf0): constructed
+07.11.2017 23:02:06.841 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:06.841 0 DEBUG    9040 HttpConnectionHandler (0x17de2c30): constructed
+07.11.2017 23:02:06.842 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:06.842 0 DEBUG    9040 HttpConnectionHandler (0x17de2d70): constructed
+07.11.2017 23:02:23.342 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:23.343 0 DEBUG    9040 HttpConnectionHandler (0x17de3070): constructed
+07.11.2017 23:02:23.343 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:23.344 0 DEBUG    9040 HttpConnectionHandler (0x17de30b0): constructed
+07.11.2017 23:02:23.345 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:23.345 0 DEBUG    9040 HttpConnectionHandler (0x17de33b0): constructed
+07.11.2017 23:02:23.349 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:23.349 0 DEBUG    9040 HttpConnectionHandler (0x17de30f0): constructed
+07.11.2017 23:02:23.350 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:23.350 0 DEBUG    9040 HttpConnectionHandler (0x17de31b0): constructed
+07.11.2017 23:02:23.350 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:02:23.351 0 DEBUG    9040 HttpConnectionHandler (0x17de32b0): constructed
+07.11.2017 23:03:45.902 0 DEBUG    9040 HttpConnectionHandler (0xf253670): destroyed
+07.11.2017 23:03:45.902 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0xf253670), pool size is now 17
+07.11.2017 23:04:24.533 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:04:24.784 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:04:24.855 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:04:24.856 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:04:24.862 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:04:24.863 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:04:45.899 0 DEBUG    9040 HttpConnectionHandler (0x17de2bb0): destroyed
+07.11.2017 23:04:45.899 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de2bb0), pool size is now 16
+07.11.2017 23:05:45.913 0 DEBUG    9040 HttpConnectionHandler (0xf253430): destroyed
+07.11.2017 23:05:45.913 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0xf253430), pool size is now 15
+07.11.2017 23:06:45.898 0 DEBUG    9040 HttpConnectionHandler (0x17de2f30): destroyed
+07.11.2017 23:06:45.899 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de2f30), pool size is now 14
+07.11.2017 23:07:45.903 0 DEBUG    9040 HttpConnectionHandler (0x17de2d30): destroyed
+07.11.2017 23:07:45.903 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de2d30), pool size is now 13
+07.11.2017 23:08:45.900 0 DEBUG    9040 HttpConnectionHandler (0x17de2bf0): destroyed
+07.11.2017 23:08:45.900 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de2bf0), pool size is now 12
+07.11.2017 23:09:14.765 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:09:15.012 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:09:15.154 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:09:15.158 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:09:15.165 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:09:15.168 0 DEBUG    9040 HttpListener: New connection
+07.11.2017 23:09:45.901 0 DEBUG    9040 HttpConnectionHandler (0x17de31b0): destroyed
+07.11.2017 23:09:45.901 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de31b0), pool size is now 11
+07.11.2017 23:10:45.904 0 DEBUG    9040 HttpConnectionHandler (0x17de2c30): destroyed
+07.11.2017 23:10:45.904 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de2c30), pool size is now 10
+07.11.2017 23:11:45.904 0 DEBUG    9040 HttpConnectionHandler (0x17de2d70): destroyed
+07.11.2017 23:11:45.904 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de2d70), pool size is now 9
+07.11.2017 23:12:45.897 0 DEBUG    9040 HttpConnectionHandler (0x17de3070): destroyed
+07.11.2017 23:12:45.897 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de3070), pool size is now 8
+07.11.2017 23:13:45.899 0 DEBUG    9040 HttpConnectionHandler (0x17de30b0): destroyed
+07.11.2017 23:13:45.899 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de30b0), pool size is now 7
+07.11.2017 23:14:45.905 0 DEBUG    9040 HttpConnectionHandler (0x17de33b0): destroyed
+07.11.2017 23:14:45.905 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de33b0), pool size is now 6
+07.11.2017 23:15:45.901 0 DEBUG    9040 HttpConnectionHandler (0x17de30f0): destroyed
+07.11.2017 23:15:45.901 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de30f0), pool size is now 5
+07.11.2017 23:16:45.909 0 DEBUG    9040 HttpConnectionHandler (0x17de32b0): destroyed
+07.11.2017 23:16:45.909 0 DEBUG    9040 HttpConnectionHandlerPool: Removed connection handler (0x17de32b0), pool size is now 4
+07.11.2017 23:17:37.722 1 WARNING  9040 Application has stopped
+07.11.2017 23:26:08.299 0 DEBUG    4608 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:26:08.299 0 DEBUG    4608 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:26:08.299 0 DEBUG    4608 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:26:08.299 0 DEBUG    4608 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:26:08.299 0 DEBUG    4608 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:26:08.299 0 DEBUG    4608 RequestMapper: created
+07.11.2017 23:26:08.299 0 DEBUG    4608 HttpListener: Listening on port 8080
+07.11.2017 23:26:08.299 1 WARNING  4608 Application has started
+07.11.2017 23:26:09.832 0 DEBUG    4608 HttpListener: New connection
+07.11.2017 23:26:09.832 0 DEBUG    4608 HttpConnectionHandler (0xf15cf90): constructed
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpListener: New connection
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpConnectionHandler (0x15e6a2a0): constructed
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpListener: New connection
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpConnectionHandler (0x15c90b60): constructed
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpListener: New connection
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpConnectionHandler (0x15c90860): constructed
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpListener: New connection
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpConnectionHandler (0x15c90e60): constructed
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpListener: New connection
+07.11.2017 23:26:11.930 0 DEBUG    4608 HttpConnectionHandler (0x15bf1da0): constructed
+07.11.2017 23:26:17.761 1 WARNING  4608 Application has stopped
+07.11.2017 23:37:58.328 0 DEBUG    10672 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:37:58.328 0 DEBUG    10672 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:37:58.328 0 DEBUG    10672 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:37:58.328 0 DEBUG    10672 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:37:58.328 0 DEBUG    10672 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:37:58.328 0 DEBUG    10672 RequestMapper: created
+07.11.2017 23:37:58.328 0 DEBUG    10672 HttpListener: Listening on port 8080
+07.11.2017 23:37:58.328 1 WARNING  10672 Application has started
+07.11.2017 23:38:46.639 0 DEBUG    6860 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:38:46.639 0 DEBUG    6860 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:38:46.639 0 DEBUG    6860 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:38:46.639 0 DEBUG    6860 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:38:46.639 0 DEBUG    6860 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:38:46.639 0 DEBUG    6860 RequestMapper: created
+07.11.2017 23:38:46.639 0 DEBUG    6860 HttpListener: Listening on port 8080
+07.11.2017 23:38:46.639 1 WARNING  6860 Application has started
+07.11.2017 23:40:31.330 0 DEBUG    4204 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:40:31.330 0 DEBUG    4204 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:40:31.330 0 DEBUG    4204 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:40:31.330 0 DEBUG    4204 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:40:31.330 0 DEBUG    4204 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:40:31.330 0 DEBUG    4204 RequestMapper: created
+07.11.2017 23:40:31.330 0 DEBUG    4204 HttpListener: Listening on port 8080
+07.11.2017 23:40:31.330 1 WARNING  4204 Application has started
+07.11.2017 23:41:05.839 0 DEBUG    4980 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:41:05.839 0 DEBUG    4980 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:41:05.839 0 DEBUG    4980 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:41:05.839 0 DEBUG    4980 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:41:05.839 0 DEBUG    4980 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:41:05.839 0 DEBUG    4980 RequestMapper: created
+07.11.2017 23:41:05.843 0 DEBUG    4980 HttpListener: Listening on port 8080
+07.11.2017 23:41:05.843 1 WARNING  4980 Application has started
+07.11.2017 23:41:23.189 0 DEBUG    7012 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:41:23.189 0 DEBUG    7012 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:41:23.189 0 DEBUG    7012 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:41:23.189 0 DEBUG    7012 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:41:23.189 0 DEBUG    7012 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:41:23.189 0 DEBUG    7012 RequestMapper: created
+07.11.2017 23:41:23.189 0 DEBUG    7012 HttpListener: Listening on port 8080
+07.11.2017 23:41:23.189 1 WARNING  7012 Application has started
+07.11.2017 23:45:13.202 0 DEBUG    14260 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:45:13.202 0 DEBUG    14260 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:45:13.202 0 DEBUG    14260 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:45:13.202 0 DEBUG    14260 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:45:13.202 0 DEBUG    14260 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:45:13.202 0 DEBUG    14260 RequestMapper: created
+07.11.2017 23:45:13.202 0 DEBUG    14260 HttpListener: Listening on port 8080
+07.11.2017 23:45:13.202 1 WARNING  14260 Application has started
+07.11.2017 23:45:57.147 0 DEBUG    7244 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:45:57.147 0 DEBUG    7244 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:45:57.147 0 DEBUG    7244 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:45:57.147 0 DEBUG    7244 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:45:57.147 0 DEBUG    7244 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:45:57.147 0 DEBUG    7244 RequestMapper: created
+07.11.2017 23:45:57.147 0 DEBUG    7244 HttpListener: Listening on port 8080
+07.11.2017 23:45:57.147 1 WARNING  7244 Application has started
+07.11.2017 23:47:51.626 0 DEBUG    10748 TemplateLoader: path=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/templates, codec=UTF-8
+07.11.2017 23:47:51.626 0 DEBUG    10748 TemplateCache: timeout=60000, size=1000000
+07.11.2017 23:47:51.626 0 DEBUG    10748 HttpSessionStore: Sessions expire after 3600000 milliseconds
+07.11.2017 23:47:51.626 0 DEBUG    10748 StaticFileController: docroot=C:/Users/ASUS/Documents/code/QtWebApp/Demo1/etc/docroot, encoding=UTF-8, maxAge=60000
+07.11.2017 23:47:51.626 0 DEBUG    10748 StaticFileController: cache timeout=60000, size=1000000
+07.11.2017 23:47:51.626 0 DEBUG    10748 RequestMapper: created
+07.11.2017 23:47:51.630 0 DEBUG    10748 HttpListener: Listening on port 8080
+07.11.2017 23:47:51.630 1 WARNING  10748 Application has started
