@@ -4,7 +4,7 @@
 */
 
 #include <QCoreApplication>
-#include <QApplication>
+//#include <QApplication>
 #include <QDir>
 #include "httplistener.h"
 #include "templatecache.h"
@@ -12,7 +12,7 @@
 #include "staticfilecontroller.h"
 #include "filelogger.h"
 #include "requestmapper.h"
-#include <QPushButton>
+//#include <QPushButton>
 #include <QtWebKit>
 
 using namespace stefanfrings;
@@ -71,16 +71,16 @@ QString searchConfigFile()
     return 0;
 }
 
-#include <QDesktopServices>
+//#include <QDesktopServices>
 /**
     Entry point of the program.
 */
 int main(int argc, char *argv[])
 {
-    // QCoreApplication app(argc,argv);
-    QApplication app(argc, argv);
+     QCoreApplication app(argc,argv);
+//    QApplication app(argc, argv);
     app.setApplicationName("Application");
-    app.setOrganizationName("Butterfly");
+    app.setOrganizationName("WXG");
 
     // Find the configuration file
     QString configFileName = searchConfigFile();
