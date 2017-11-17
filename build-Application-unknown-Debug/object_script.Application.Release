@@ -14,6 +14,7 @@ INPUT(
 ./release\qobjecthelper.o
 ./release\serializer.o
 ./release\serializerrunnable.o
+./release\GeneralInterface.o
 ./release\logmessage.o
 ./release\logger.o
 ./release\filelogger.o

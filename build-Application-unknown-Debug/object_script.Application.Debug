@@ -14,6 +14,7 @@ INPUT(
 ./debug\qobjecthelper.o
 ./debug\serializer.o
 ./debug\serializerrunnable.o
+./debug\GeneralInterface.o
 ./debug\logmessage.o
 ./debug\logger.o
 ./debug\filelogger.o
