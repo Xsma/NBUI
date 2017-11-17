@@ -29,7 +29,8 @@ HEADERS += \
     src/QJson/src/qobjecthelper.h \
     src/QJson/src/serializer.h \
     src/QJson/src/serializerrunnable.h \
-    src/QJson/src/stack.hh
+    src/QJson/src/stack.hh \
+    src/generalinterface.h
 
 SOURCES += src/main.cpp \
            src/requestmapper.cpp \
@@ -46,7 +47,8 @@ SOURCES += src/main.cpp \
     src/QJson/src/parserrunnable.cpp \
     src/QJson/src/qobjecthelper.cpp \
     src/QJson/src/serializer.cpp \
-    src/QJson/src/serializerrunnable.cpp
+    src/QJson/src/serializerrunnable.cpp \
+    src/GeneralInterface.cpp
 
 OTHER_FILES += etc/* etc/docroot/* etc/templates/* etc/ssl/* logs/* ../readme.txt
 
